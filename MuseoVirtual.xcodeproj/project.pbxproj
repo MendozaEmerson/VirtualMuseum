@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2FAB192CAF2833000B1C23 /* MuseoVirtualApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB182CAF2833000B1C23 /* MuseoVirtualApp.swift */; };
+		8C2FAB1B2CAF2833000B1C23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB1A2CAF2833000B1C23 /* ContentView.swift */; };
+		8C2FAB1D2CAF2836000B1C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2FAB1C2CAF2836000B1C23 /* Assets.xcassets */; };
+		8C2FAB202CAF2836000B1C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2FAB1F2CAF2836000B1C23 /* Preview Assets.xcassets */; };
+		8C2FAB222CAF2836000B1C23 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB212CAF2836000B1C23 /* Persistence.swift */; };
+		8C2FAB252CAF2836000B1C23 /* MuseoVirtual.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB232CAF2836000B1C23 /* MuseoVirtual.xcdatamodeld */; };
+		8C2FAB2F2CAF2837000B1C23 /* MuseoVirtualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB2E2CAF2837000B1C23 /* MuseoVirtualTests.swift */; };
+		8C2FAB392CAF2837000B1C23 /* MuseoVirtualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB382CAF2837000B1C23 /* MuseoVirtualUITests.swift */; };
+		8C2FAB3B2CAF2837000B1C23 /* MuseoVirtualUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FAB3A2CAF2837000B1C23 /* MuseoVirtualUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C2FAB2B2CAF2837000B1C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2FAB0D2CAF2833000B1C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2FAB142CAF2833000B1C23;
+			remoteInfo = MuseoVirtual;
+		};
+		8C2FAB352CAF2837000B1C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2FAB0D2CAF2833000B1C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2FAB142CAF2833000B1C23;
+			remoteInfo = MuseoVirtual;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C2FAB152CAF2833000B1C23 /* MuseoVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseoVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2FAB182CAF2833000B1C23 /* MuseoVirtualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoVirtualApp.swift; sourceTree = "<group>"; };
+		8C2FAB1A2CAF2833000B1C23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C2FAB1C2CAF2836000B1C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C2FAB1F2CAF2836000B1C23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C2FAB212CAF2836000B1C23 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8C2FAB242CAF2836000B1C23 /* MuseoVirtual.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MuseoVirtual.xcdatamodel; sourceTree = "<group>"; };
+		8C2FAB2A2CAF2837000B1C23 /* MuseoVirtualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoVirtualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2FAB2E2CAF2837000B1C23 /* MuseoVirtualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoVirtualTests.swift; sourceTree = "<group>"; };
+		8C2FAB342CAF2837000B1C23 /* MuseoVirtualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoVirtualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2FAB382CAF2837000B1C23 /* MuseoVirtualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoVirtualUITests.swift; sourceTree = "<group>"; };
+		8C2FAB3A2CAF2837000B1C23 /* MuseoVirtualUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoVirtualUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2FAB122CAF2833000B1C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB272CAF2837000B1C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB312CAF2837000B1C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C2FAB0C2CAF2833000B1C23 = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB172CAF2833000B1C23 /* MuseoVirtual */,
+				8C2FAB2D2CAF2837000B1C23 /* MuseoVirtualTests */,
+				8C2FAB372CAF2837000B1C23 /* MuseoVirtualUITests */,
+				8C2FAB162CAF2833000B1C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2FAB162CAF2833000B1C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB152CAF2833000B1C23 /* MuseoVirtual.app */,
+				8C2FAB2A2CAF2837000B1C23 /* MuseoVirtualTests.xctest */,
+				8C2FAB342CAF2837000B1C23 /* MuseoVirtualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2FAB172CAF2833000B1C23 /* MuseoVirtual */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB182CAF2833000B1C23 /* MuseoVirtualApp.swift */,
+				8C2FAB1A2CAF2833000B1C23 /* ContentView.swift */,
+				8C2FAB1C2CAF2836000B1C23 /* Assets.xcassets */,
+				8C2FAB212CAF2836000B1C23 /* Persistence.swift */,
+				8C2FAB232CAF2836000B1C23 /* MuseoVirtual.xcdatamodeld */,
+				8C2FAB1E2CAF2836000B1C23 /* Preview Content */,
+			);
+			path = MuseoVirtual;
+			sourceTree = "<group>";
+		};
+		8C2FAB1E2CAF2836000B1C23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB1F2CAF2836000B1C23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C2FAB2D2CAF2837000B1C23 /* MuseoVirtualTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB2E2CAF2837000B1C23 /* MuseoVirtualTests.swift */,
+			);
+			path = MuseoVirtualTests;
+			sourceTree = "<group>";
+		};
+		8C2FAB372CAF2837000B1C23 /* MuseoVirtualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FAB382CAF2837000B1C23 /* MuseoVirtualUITests.swift */,
+				8C2FAB3A2CAF2837000B1C23 /* MuseoVirtualUITestsLaunchTests.swift */,
+			);
+			path = MuseoVirtualUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2FAB142CAF2833000B1C23 /* MuseoVirtual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2FAB3E2CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtual" */;
+			buildPhases = (
+				8C2FAB112CAF2833000B1C23 /* Sources */,
+				8C2FAB122CAF2833000B1C23 /* Frameworks */,
+				8C2FAB132CAF2833000B1C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseoVirtual;
+			productName = MuseoVirtual;
+			productReference = 8C2FAB152CAF2833000B1C23 /* MuseoVirtual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C2FAB292CAF2837000B1C23 /* MuseoVirtualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2FAB412CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtualTests" */;
+			buildPhases = (
+				8C2FAB262CAF2837000B1C23 /* Sources */,
+				8C2FAB272CAF2837000B1C23 /* Frameworks */,
+				8C2FAB282CAF2837000B1C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2FAB2C2CAF2837000B1C23 /* PBXTargetDependency */,
+			);
+			name = MuseoVirtualTests;
+			productName = MuseoVirtualTests;
+			productReference = 8C2FAB2A2CAF2837000B1C23 /* MuseoVirtualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C2FAB332CAF2837000B1C23 /* MuseoVirtualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2FAB442CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtualUITests" */;
+			buildPhases = (
+				8C2FAB302CAF2837000B1C23 /* Sources */,
+				8C2FAB312CAF2837000B1C23 /* Frameworks */,
+				8C2FAB322CAF2837000B1C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2FAB362CAF2837000B1C23 /* PBXTargetDependency */,
+			);
+			name = MuseoVirtualUITests;
+			productName = MuseoVirtualUITests;
+			productReference = 8C2FAB342CAF2837000B1C23 /* MuseoVirtualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2FAB0D2CAF2833000B1C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8C2FAB142CAF2833000B1C23 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8C2FAB292CAF2837000B1C23 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8C2FAB142CAF2833000B1C23;
+					};
+					8C2FAB332CAF2837000B1C23 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8C2FAB142CAF2833000B1C23;
+					};
+				};
+			};
+			buildConfigurationList = 8C2FAB102CAF2833000B1C23 /* Build configuration list for PBXProject "MuseoVirtual" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2FAB0C2CAF2833000B1C23;
+			productRefGroup = 8C2FAB162CAF2833000B1C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2FAB142CAF2833000B1C23 /* MuseoVirtual */,
+				8C2FAB292CAF2837000B1C23 /* MuseoVirtualTests */,
+				8C2FAB332CAF2837000B1C23 /* MuseoVirtualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2FAB132CAF2833000B1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FAB202CAF2836000B1C23 /* Preview Assets.xcassets in Resources */,
+				8C2FAB1D2CAF2836000B1C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB282CAF2837000B1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB322CAF2837000B1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2FAB112CAF2833000B1C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FAB222CAF2836000B1C23 /* Persistence.swift in Sources */,
+				8C2FAB252CAF2836000B1C23 /* MuseoVirtual.xcdatamodeld in Sources */,
+				8C2FAB1B2CAF2833000B1C23 /* ContentView.swift in Sources */,
+				8C2FAB192CAF2833000B1C23 /* MuseoVirtualApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB262CAF2837000B1C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FAB2F2CAF2837000B1C23 /* MuseoVirtualTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FAB302CAF2837000B1C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FAB3B2CAF2837000B1C23 /* MuseoVirtualUITestsLaunchTests.swift in Sources */,
+				8C2FAB392CAF2837000B1C23 /* MuseoVirtualUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2FAB2C2CAF2837000B1C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2FAB142CAF2833000B1C23 /* MuseoVirtual */;
+			targetProxy = 8C2FAB2B2CAF2837000B1C23 /* PBXContainerItemProxy */;
+		};
+		8C2FAB362CAF2837000B1C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2FAB142CAF2833000B1C23 /* MuseoVirtual */;
+			targetProxy = 8C2FAB352CAF2837000B1C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C2FAB3C2CAF2837000B1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C2FAB3D2CAF2837000B1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2FAB3F2CAF2837000B1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseoVirtual/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2FAB402CAF2837000B1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseoVirtual/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C2FAB422CAF2837000B1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseoVirtual.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuseoVirtual";
+			};
+			name = Debug;
+		};
+		8C2FAB432CAF2837000B1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseoVirtual.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuseoVirtual";
+			};
+			name = Release;
+		};
+		8C2FAB452CAF2837000B1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseoVirtual;
+			};
+			name = Debug;
+		};
+		8C2FAB462CAF2837000B1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsoft.MuseoVirtualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseoVirtual;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2FAB102CAF2833000B1C23 /* Build configuration list for PBXProject "MuseoVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2FAB3C2CAF2837000B1C23 /* Debug */,
+				8C2FAB3D2CAF2837000B1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2FAB3E2CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2FAB3F2CAF2837000B1C23 /* Debug */,
+				8C2FAB402CAF2837000B1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2FAB412CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2FAB422CAF2837000B1C23 /* Debug */,
+				8C2FAB432CAF2837000B1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2FAB442CAF2837000B1C23 /* Build configuration list for PBXNativeTarget "MuseoVirtualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2FAB452CAF2837000B1C23 /* Debug */,
+				8C2FAB462CAF2837000B1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C2FAB232CAF2836000B1C23 /* MuseoVirtual.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C2FAB242CAF2836000B1C23 /* MuseoVirtual.xcdatamodel */,
+			);
+			currentVersion = 8C2FAB242CAF2836000B1C23 /* MuseoVirtual.xcdatamodel */;
+			path = MuseoVirtual.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C2FAB0D2CAF2833000B1C23 /* Project object */;
+}
